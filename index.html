@@ -7,11 +7,15 @@
     <title>Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <style>
+        
         header{
           background-color: pink;
+          text-align: center;
         }
-        nav{
+        nav ul li {
           text-transform: uppercase;
+          display: inline-block;
+          width: 100px;
         }
         a{
           text-decoration:none ;
@@ -19,17 +23,31 @@
         #link{
           color: brown;
           font-size: larger;
+          margin-right: 30px;
+        }
+        nav a:hover{
+          background-color: rgb(189, 118, 118);
+
+        }
+        span{
+          margin-right: 20px;
+        }
+        #name{
+          margin-right: 20px;
+        }
+        #mobile{
+          margin-right: 20px;
         }
       </style>
   </head>
   <body>
     <header>
       <i class="fa fa-user" aria-hidden="true"></i>
-      <span> Priya Gavhane</span>&nbsp;&nbsp;&nbsp;
+      <span id="name"> Priya Gavhane</span>
       <i class="fa fa-phone-square" aria-hidden="true"></i>
-      <span> 9282&nbsp;3259&nbsp;32</span>&nbsp;&nbsp;
+      <span id="mobile"> 9282 325932</span>
       <i class="fa fa-envelope" aria-hidden="true"></i>
-      <span style="color: brown;"> shitolepriya@gmail.com</span>&nbsp;&nbsp;&nbsp;
+      <span style="color: brown;"> shitolepriya@gmail.com</span>
       <a href="assets/my resume.pdf" target="myFrame">
       <button i class="fa fa-download" aria-hidden="true"> Resume download </button>
       </a>
@@ -37,26 +55,26 @@
     <br/>
     <br />
     <nav>
-      <a href="home.html" target="myFrame"> HOME </a>&nbsp;&nbsp;
-      <a href="techStack.html" target="myFrame"> TECHSTACK </a>&nbsp;&nbsp;
-      <a href="project.html" target="myFrame"> PROJECT </a>&nbsp;&nbsp;
-      <a href="education.html" target="myFrame" > EDUCATION </a>&nbsp;&nbsp;
-      <a href="aboutMe.html" target="myFrame" > ABOUTME </a>&nbsp;&nbsp;
+      <ul>
+        <li><a href="home.html" target="myFrame"> HOME </a></li>
+        <li><a href="techStack.html" target="myFrame"> TECHSTACK </a></li>
+        <li><a href="project.html" target="myFrame"> PROJECT </a></li>
+        <li><a href="education.html" target="myFrame" > EDUCATION </a></li>
+        <li><a href="aboutMe.html" target="myFrame" > ABOUTME </a></li>
+      </ul>
     </nav>
     <br />
     <br />
     <iframe width="600px" height="420px" src="home.html" name="myFrame" > </iframe>&nbsp;
     <br>
     <footer>
-    <span> Follow me </span>&nbsp;&nbsp;
+    <span> Follow me </span>
     <a id="link" href="https://www.linkedin.com/" target="_blank">
     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
     </a>
-     &nbsp;&nbsp;&nbsp;
     <a id="link" href="https://github.com/GavhanePriya/my-profile" target="_blank">
     <i class="fa fa-github" aria-hidden="true"></i>
-    </a>
-    &nbsp;&nbsp;&nbsp;
+    </a >
     <a id="link"  href="https://www.instagram.com/" target="_blank">
     <i class="fa fa-instagram" aria-hidden="true"></i>
     </a>

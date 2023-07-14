@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .photo-section{
+            display: inline-block;
+            margin-right: 7%;
+        }
+        .content-section{
+            display: inline-block;
+        }  
+        h3{
+             text-align: center;
+             font-family: 'Sofia', cursive;
+            margin: 0px;
+            color: brown;
+        }  
+        h2{
+            font-family: 'Merriweather', serif;
+        }
+        .points,li{
+            font-family: 'PT Serif', serif;
+            padding: 15px;
+            list-style-type: none;
+        }
+            .points,li::before{
+                content: "✏️";
+            }
+            .points li:hover{
+            background-color:rgb(238, 191, 191);
+            }
+        p{
+            
+            font-family: 'IBM Plex Sans', sans-serif;
+            text-align: center;
+            margin: 0px;
+            color: brown;
+        }  
+        .links{
+           padding-right: 10px;
+           font-size: larger; 
+        } 
+        a{
+            padding: 10px;
+            font-size: larger;
+            color: rgb(114, 206, 206);
+        }  
+        a :hover{
+            color: rgb(233, 151, 92);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="photo-section">
+    <img src="assets/developer.png"alt="profile image" width="250px">
+    <p> Powered by</p>
+     <h3><i class="fa fa-star-half-o" aria-hidden="true" ><label>JsofwareLabs</label></i></h3>
+     <ol class="links">
+    <span><strong> Follow me</strong> </span>
+           <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/GavhanePriya/my-profile" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            </a >
+            <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            </ol>
+    </div>
+     <div class="content-section">
+    <h2> Compare Text Online </h2>
+    <ul class="points">
+        <li> Compare Text online free</li>
+        <li> Support large file comparsion </li>
+        <li> Ingnoer order and namespaces  </li>
+        <li> Slide by diff view</li>
+        <li> Get results in tabular format for quick reference </li>
+        <li> TEXT diff tool</li>
+        <li> REST API</li>
+    </ul>
+</body>
+</html>
